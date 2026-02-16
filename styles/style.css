@@ -221,4 +221,44 @@ main section{
 .resume-download-btn{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
+
+/* footer section */
+footer{
+    padding: 130px 230px;
+    display:flex;
+    gap: 100px;
+}
+.footer-column{
+    width : 50% ;
+}
+
+footer input[type="text"],footer input[type=email] {
+    height : 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 18px 50px 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+ footer textarea {
+    height: 180px;
+    width: 100%;
+    padding: 18px 50px 18px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+
+}
+
+.input-field ::placeholder{
+
+    color: #757575;
+    font-size: 16px;
+
+}
+
